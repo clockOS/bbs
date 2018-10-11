@@ -45,7 +45,6 @@ class UserValidator extends AbstractValidator
 
         return [
             'username' => [
-                'required',
                 'max:30'
             ],
             'email' => [
